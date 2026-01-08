@@ -20,7 +20,7 @@ jobs:
       run: pip install requests
       
     - name: Run IPTV combiner
-      run: python iptv_combiner.py
+      run: python merge_test_iptv.py
       
     - name: Commit and push if changed
       run: |
